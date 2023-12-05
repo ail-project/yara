@@ -140,6 +140,7 @@ endif
 #
 # MODULES += libyara/modules/yourmodule.c
 #
+MODULES += libyara/modules/araygrass/araygrass.c
 
 include_HEADERS = libyara/include/yara.h
 
@@ -222,6 +223,8 @@ libyara_la_SOURCES = \
 	libyara/exec.c \
 	libyara/exefiles.c \
 	libyara/filemap.c \
+	libyara/fleur/fnv.c \
+	libyara/fleur/fleur.c \
 	libyara/hash.c \
 	libyara/hex_grammar.y \
 	libyara/hex_lexer.l \

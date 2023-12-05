@@ -12,6 +12,7 @@ MODULE(dotnet)
 
 #ifdef CUCKOO_MODULE
 MODULE(cuckoo)
+MODULE(androguard)
 #endif
 
 #ifdef MAGIC_MODULE
@@ -33,3 +34,4 @@ MODULE(dex)
 #ifdef PB_TESTS_MODULE
 MODULE(pb_tests)
 #endif
+MODULE(araygrass)
